@@ -1,7 +1,7 @@
 #include<iostream>
 #include<fstream>
 using namespace std;
-// unction that reads the entries from file.
+// function that reads the entries from file.
 // so we use some char array, int array and refernce in this function.
 void readfromfile(char file_covert[], int elements[], int &entries)
 {
