@@ -39,13 +39,13 @@ int main(int argc, char *argv [])
     catch(...)
     {
         cout<<"This program has 3 parameters: "<<endl;
-        cout<<"[1] Name of program like : [a b c].exe"<<endl;
-        cout<<"[2] Name of user you want to print like Ahmed: "<<endl;
+        cout<<"[1] Name of parameter like : Hello.exe"<<endl;
+        cout<<"[2] Parametter- number of times you want to print Hello"<<endl;
         cout<<"[3] How many times you want to print the name of user: "<<endl;
         cout<<endl;
-        cout<<"for e.g: Typing Ahmed"<<endl;
-        cout<<"DSA Ahmed 3"<<endl;
-        cout<<"Will Hello print 3 times?"<<endl;
+        cout<<"for e.g: Typing the following"<<endl;
+        cout<<"Hello.exe 7 "<<endl;
+        cout<<"Will print Hello seven Times "<<endl;
     }
     return 0;
 }

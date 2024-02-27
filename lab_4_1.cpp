@@ -19,7 +19,7 @@ clock_t t1, t2;
 t1 = clock(); 
 fun();
 t2 = clock() - t1;
-double time_taken = ( (double) t2) /CLOCKS_PER_SEC; // in seconds
+double time_taken = ((double) t2) * CLOCKS_PER_SEC; // in seconds
 printf("fun() took %f seconds to execute \n", time_taken); 
 return 0;
 }
