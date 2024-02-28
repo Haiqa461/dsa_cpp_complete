@@ -14,7 +14,7 @@ int main(int argc, char *argv [])
            throw(argc);
         }
         else
-        {
+        { 
             cout<<"Lets start the program"<<endl;
             A = argv[0];
             cout<<"Write Program Name: "<<A<<endl;

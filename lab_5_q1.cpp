@@ -36,7 +36,8 @@ for (i=0, i < r , i ++ ){
     }
 }
 
-cout<<endl<<"your matrix"
+cout<<endl<<"your matrix";
 
 return 0 ;
+
 }
